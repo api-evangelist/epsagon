@@ -1,23 +1,66 @@
 aid: epsagon
 name: Epsagon
-description: Epsagon is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Epsagon was an observability and application performance monitoring (APM) company,
+  founded in 2017, that provided automated distributed tracing for serverless and
+  containerized applications — AWS Lambda, Node.js, Python, Go, .NET, Ruby, and Java —
+  correlating traces, metrics, and logs to help teams identify and fix problems fast
+  without manual instrumentation. Epsagon was acquired by Cisco in 2021 and folded into
+  Cisco's observability portfolio, after which the product was sunset. The epsagon.com
+  developer surface (docs, dashboard, and API subdomains) no longer resolves. Its
+  surviving public footprint is the github.com/epsagon organization and the first-party
+  instrumentation SDKs still hosted on npm, PyPI, RubyGems, Go modules, NuGet, and Maven
+  Central. This profile captures that remaining, verifiable footprint.
 url: https://raw.githubusercontent.com/api-evangelist/epsagon/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/32390774?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired-sunset
+x-acquired-by: cisco
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Observability
+- Monitoring
+- Application Performance Monitoring
+- Distributed Tracing
+- Serverless
+- Containers
+- OpenTelemetry
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/epsagon
+- type: Packages
+  url: https://raw.githubusercontent.com/api-evangelist/epsagon/refs/heads/main/packages/epsagon-packages.yml
+- type: SDKs
+  url: https://raw.githubusercontent.com/api-evangelist/epsagon/refs/heads/main/packages/epsagon-packages.yml
+- type: LLMsTxt
+  url: https://raw.githubusercontent.com/api-evangelist/epsagon/refs/heads/main/llms/epsagon-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

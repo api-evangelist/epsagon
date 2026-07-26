@@ -1,0 +1,24 @@
+# Epsagon
+
+> Epsagon was an observability / application performance monitoring (APM) company providing automated distributed tracing for serverless and containerized applications. It was acquired by Cisco in 2021 and the product has since been sunset; the epsagon.com developer surface is offline. The surviving public footprint is the github.com/epsagon organization and the first-party instrumentation SDKs still hosted on the public package registries.
+
+## Status
+- Company acquired by Cisco (2021); product sunset.
+- epsagon.com and its subdomains (docs, dashboard, api) no longer resolve.
+- No live public REST API, developer portal, or OpenAPI is available.
+
+## Source Code
+- [Epsagon GitHub organization](https://github.com/epsagon): 73 public repositories including the instrumentation libraries.
+
+## SDKs / Packages
+- [epsagon (npm, Node.js)](https://www.npmjs.com/package/epsagon)
+- [epsagon-frameworks (npm)](https://www.npmjs.com/package/epsagon-frameworks)
+- [serverless-plugin-epsagon (npm)](https://www.npmjs.com/package/serverless-plugin-epsagon)
+- [epsagon (PyPI, Python)](https://pypi.org/project/epsagon/)
+- [epsagon (RubyGems)](https://rubygems.org/gems/epsagon)
+- [epsagon-go (pkg.go.dev)](https://pkg.go.dev/github.com/epsagon/epsagon-go)
+- [Epsagon.Dotnet.Instrumentation (NuGet)](https://www.nuget.org/packages/Epsagon.Dotnet.Instrumentation)
+- [com.epsagon:epsagon (Maven Central)](https://central.sonatype.com/artifact/com.epsagon/epsagon)
+
+## Artifacts
+- [Packages catalog](https://raw.githubusercontent.com/api-evangelist/epsagon/refs/heads/main/packages/epsagon-packages.yml)

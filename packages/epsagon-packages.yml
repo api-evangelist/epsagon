@@ -1,0 +1,80 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/epsagon
+note: >-
+  Epsagon (acquired by Cisco in 2021) published these first-party instrumentation /
+  distributed-tracing SDKs. The epsagon.com product surface is sunset and the domain
+  no longer resolves, but the packages remain live on the public registries and the
+  github.com/epsagon org is still online. Versions frozen circa 2023.
+packages:
+  - language: javascript
+    registry: npm
+    name: epsagon
+    url: https://www.npmjs.com/package/epsagon
+    install: npm install epsagon
+    version: 1.123.3
+    source_code: https://github.com/epsagon/epsagon-node
+    description: Epsagon Instrumentation for Node.js
+    official: true
+  - language: javascript
+    registry: npm
+    name: epsagon-frameworks
+    url: https://www.npmjs.com/package/epsagon-frameworks
+    install: npm install epsagon-frameworks
+    version: 1.32.0
+    source_code: https://github.com/epsagon/epsagon-node-frameworks
+    description: Epsagon Instrumentation for Node.js Frameworks
+    official: true
+  - language: javascript
+    registry: npm
+    name: serverless-plugin-epsagon
+    url: https://www.npmjs.com/package/serverless-plugin-epsagon
+    install: npm install serverless-plugin-epsagon
+    version: 1.12.4
+    source_code: https://github.com/epsagon/serverless-plugin-epsagon
+    description: Epsagon's plugin for the Serverless Framework
+    official: true
+  - language: python
+    registry: pypi
+    name: epsagon
+    url: https://pypi.org/project/epsagon/
+    install: pip install epsagon
+    version: 1.82.0
+    source_code: https://github.com/epsagon/epsagon-python
+    description: Epsagon Instrumentation for Python
+    official: true
+  - language: ruby
+    registry: rubygems
+    name: epsagon
+    url: https://rubygems.org/gems/epsagon
+    install: gem install epsagon
+    version: 0.0.31
+    source_code: https://github.com/epsagon/epsagon-ruby
+    description: Epsagon distributed tracing for Ruby applications
+    official: true
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/epsagon/epsagon-go
+    url: https://pkg.go.dev/github.com/epsagon/epsagon-go
+    install: go get github.com/epsagon/epsagon-go
+    source_code: https://github.com/epsagon/epsagon-go
+    description: Automated tracing library for Go
+    official: true
+  - language: dotnet
+    registry: nuget
+    name: Epsagon.Dotnet.Instrumentation
+    url: https://www.nuget.org/packages/Epsagon.Dotnet.Instrumentation
+    install: dotnet add package Epsagon.Dotnet.Instrumentation
+    version: 1.25.3
+    source_code: https://github.com/epsagon/epsagon-dotnet
+    description: Automated tracing library for .NET Core
+    official: true
+  - language: java
+    registry: maven
+    name: com.epsagon:epsagon
+    url: https://central.sonatype.com/artifact/com.epsagon/epsagon
+    install: 'implementation "com.epsagon:epsagon:1.6.0"'
+    version: 1.6.0
+    source_code: https://github.com/epsagon
+    description: Epsagon instrumentation for Java
+    official: true
