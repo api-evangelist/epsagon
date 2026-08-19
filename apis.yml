@@ -1,16 +1,13 @@
 aid: epsagon
 name: Epsagon
-description: >-
-  Epsagon was an observability and application performance monitoring (APM) company,
-  founded in 2017, that provided automated distributed tracing for serverless and
-  containerized applications — AWS Lambda, Node.js, Python, Go, .NET, Ruby, and Java —
-  correlating traces, metrics, and logs to help teams identify and fix problems fast
-  without manual instrumentation. Epsagon was acquired by Cisco in 2021 and folded into
-  Cisco's observability portfolio, after which the product was sunset. The epsagon.com
-  developer surface (docs, dashboard, and API subdomains) no longer resolves. Its
-  surviving public footprint is the github.com/epsagon organization and the first-party
-  instrumentation SDKs still hosted on npm, PyPI, RubyGems, Go modules, NuGet, and Maven
-  Central. This profile captures that remaining, verifiable footprint.
+description: Epsagon was an observability and application performance monitoring (APM) company, founded in 2017,
+  that provided automated distributed tracing for serverless and containerized applications — AWS Lambda, Node.js,
+  Python, Go, .NET, Ruby, and Java — correlating traces, metrics, and logs to help teams identify and fix problems
+  fast without manual instrumentation. Epsagon was acquired by Cisco in 2021 and folded into Cisco's observability
+  portfolio, after which the product was sunset. The epsagon.com developer surface (docs, dashboard, and API subdomains)
+  no longer resolves. Its surviving public footprint is the github.com/epsagon organization and the first-party
+  instrumentation SDKs still hosted on npm, PyPI, RubyGems, Go modules, NuGet, and Maven Central. This profile captures
+  that remaining, verifiable footprint.
 url: https://raw.githubusercontent.com/api-evangelist/epsagon/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -34,7 +31,7 @@ x-status: acquired-sunset
 x-acquired-by: cisco
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-08-19'
 tags:
 - Company
 - Observability
@@ -46,6 +43,12 @@ tags:
 - OpenTelemetry
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/cisco/
+  name: Cisco
+  x-relationship: acquisition
+  x-generated-by: cisco-family:2026-08-19
+  x-acquired: 2021
 - type: GitHubOrganization
   url: https://github.com/epsagon
 - type: Packages
@@ -64,3 +67,6 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: cisco
+x-relationship: acquisition
+x-acquired: 2021
